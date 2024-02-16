@@ -1,16 +1,16 @@
 {
 	"name": "server",
 	"version": "1.0.0",
-	"description": "Backend for MERN-setup YT Tutorial",
+	"description": "Backend for MERN-setup",
 	"main": "app.js",
 	"scripts": {
 		"start": "nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "You Suck At Coding",
+	"author": "Viggo",
 	"license": "ISC",
 	"dependencies": {
-		"cookie-parser": "^1.4.5",
+		"cookie-parser": "^1.4.6",
 		"cors": "^2.8.5",
 		"crypto": "^1.0.1",
 		"dotenv": "^10.0.0",

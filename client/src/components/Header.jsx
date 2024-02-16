@@ -27,7 +27,7 @@ const Header = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark bg-primary">
 			<Link className="navbar-brand" to="/">
-				You Suck At Coding
+				Health is Wealth
 			</Link>
 			<button
 				className="navbar-toggler"

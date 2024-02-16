@@ -39,7 +39,7 @@ export const login = async ({ email, password } = {}) => {
 
 export const logout = async () => {
 	try {
-		const res = await fetch(`${process.env.REACT_APP_API_URL}/logout`, {
+		const res = await fetch(`${process.env.REACT_APP_API_URL}/`, {
 			method: "GET",
 			credentials: "include",
 		});
@@ -51,7 +51,7 @@ export const logout = async () => {
 
 export const getUser = async () => {
 	try {
-		const res = await fetch(`${process.env.REACT_APP_API_URL}/user`, {
+		const res = await fetch(`${process.env.REACT_APP_API_URL}`, {
 			method: "GET",
 			credentials: "include",
 		});

@@ -18,6 +18,7 @@ router.post("/register", userRegisterValidator, register);
 router.post("/login", login);
 router.get("/logout", logout);
 
+
 router.get("/user", verifyToken, userById, getLoggedInUser);
 
 module.exports = router;
